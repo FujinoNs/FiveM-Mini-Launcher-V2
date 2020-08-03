@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30204.135
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mini Launcher", "Mini Launcher.csproj", "{E8A3B9F2-2A1B-4FE2-B8B8-739A365CF2E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E8A3B9F2-2A1B-4FE2-B8B8-739A365CF2E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8A3B9F2-2A1B-4FE2-B8B8-739A365CF2E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8A3B9F2-2A1B-4FE2-B8B8-739A365CF2E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8A3B9F2-2A1B-4FE2-B8B8-739A365CF2E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A40E7CD4-1DD9-4A34-B341-E82E20C03D35}
+	EndGlobalSection
+EndGlobal
