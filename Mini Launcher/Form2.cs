@@ -50,7 +50,19 @@ namespace Mini_Launcher
                 }
                 catch (Exception)
                 {
-                    rp.backupSystem(@"127.0.0.1", "30120"); //แก้ไอพี FiveM ได้ตรงนี้ (สำรอง)
+                    tm_connect.Stop();
+                    const string message = "FiveM.exe could not be found. Do you want to download it now? | ไม่พบ FiveM.exe คุณต้องการดาวน์โหลดทันทีหรือไม่";
+                    const string caption = "Fujino N's!";
+                    var result = MessageBox.Show(message, caption, MessageBoxButtons.YesNo, MessageBoxIcon.Error);
+                    if (result == DialogResult.Yes)
+                    {
+                        System.Diagnostics.Process.Start("https://fivem.net/");
+                        Application.Exit();
+                    }
+                    else
+                    {
+                        Application.Exit();
+                    }
                 }
             }
             else if (pgb_connect.Value == 80)
